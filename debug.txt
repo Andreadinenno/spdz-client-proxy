@@ -1,343 +1,211 @@
-
-connected
-connectedhere1
-here0
-
-connected
-connectedhere1
-here0
-
-connected
-connectedhere1
-here0
-
-1 emitted undefined
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted undefined
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-connected
-connectedhere0
-here1
-
-0 emitted 2
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-1 emitted 2
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
+comp: 4comp: 4
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: SUYZUkDaKk9Mv9H1KGJyiw==comp: 4comp: 4
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: SUYZUkDaKk9Mv9H1KGJyiw==comp: 4comp: 4
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: SUYZUkDaKk9Mv9H1KGJyiw==comp: 4comp: 4
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
+withdrawn 1250000000000000000comp: 4comp: 4
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
-connected
-connectedhere1
-here0
-
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-1 emitted 0,0,1
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted 0,0,1here0
-here1
-
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted 0,0,1
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted 0,0,1here1
-here0
-
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted 0,0,1
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted 0,0,1
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelrhere0
-here1
-
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted 0,0,1
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-1 emitted 0,0,1
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
+withdrawn 1250000000000000000comp: 4comp: 4
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
-withdrawn 1250000000000000000here0
-here1
-
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted 0,0,1
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-1 emitted 0,0,1
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
+withdrawn 1250000000000000000comp: 4comp: 4
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
-withdrawn 1250000000000000000here0
-here1
-
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted 0,0,1
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-1 emitted 0,0,1
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CFerr2: Error: Returned error: VM Exception while processing transaction: revert
-0xc3001e08fd1950693f12Cb9582e002D630e468Aeerr2: Error: Returned error: VM Exception while processing transaction: revert
-
+withdrawn 1250000000000000000comp: 4comp: 4
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
-withdrawn 1250000000000000000here1
-here0
-
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-1 emitted 0,0,1
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted 0,0,1
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
+withdrawn 1250000000000000000comp: 4comp: 4
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
-withdrawn 1250000000000000000here0
-here1
-
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted 0,0,1
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-1 emitted 0,0,1
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CFerr2: Error: Returned error: VM Exception while processing transaction: revert
-0xc3001e08fd1950693f12Cb9582e002D630e468Aeerr2: Error: Returned error: VM Exception while processing transaction: revert
-
+withdrawn 1250000000000000000comp: 4comp: 4
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
-withdrawn 1250000000000000000here0
-here1
-
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted 0,0,1
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
-0 emitted 0,0,1
+withdrawn 1250000000000000000comp: 1comp: 1comp: 1comp: 1
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
-withdrawn 1250000000000000000here1
-here0
-
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted 0,0,1
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted 0,0,1
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
+withdrawn 1250000000000000000comp: 1comp: 2comp: 2comp: 1
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==comp: 2comp: 2
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
-withdrawn 1250000000000000000here1
-here0
-
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-1 emitted 0,0,1
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted 0,0,1
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF0xc3001e08fd1950693f12Cb9582e002D630e468Aeerr2: Error: Returned error: VM Exception while processing transaction: revert
-0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CFerr2: Error: Returned error: VM Exception while processing transaction: revert
-
+withdrawn 1250000000000000000comp: 3comp: 3
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
-withdrawn 1250000000000000000here1
-here0
-
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-1 emitted 0,0,1
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
-0 emitted 0,0,1
+withdrawn 1250000000000000000comp: 3comp: 3
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
-withdrawn 1250000000000000000here1
-here0
-
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-1 emitted 0,0,1
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
-0 emitted 0,0,1
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF0xc3001e08fd1950693f12Cb9582e002D630e468Aeerr2: Error: Returned error: VM Exception while processing transaction: revert
-0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CFerr2: Error: Returned error: VM Exception while processing transaction: revert
-
+withdrawn 1250000000000000000comp: 3comp: 3
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==comp: 1comp: 1
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
-withdrawn 1250000000000000000here0
-here1
-
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted 0,0,1
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
-1 emitted 0,0,1
+withdrawn 1250000000000000000comp: 2comp: 2
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==comp: 1comp: 1
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==comp: 2comp: 2
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
-withdrawn 1250000000000000000here0
-here1
-
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted 0,0,1
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-1 emitted 0,0,1
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CFerr2: Error: Returned error: VM Exception while processing transaction: revert
-0xc3001e08fd1950693f12Cb9582e002D630e468Aeerr2: Error: Returned error: VM Exception while processing transaction: revert
-
+withdrawn 1250000000000000000comp: 2comp: 2
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==comp: 1comp: 1
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
-withdrawn 1250000000000000000here1
-here0
-
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-1 emitted 0,0,1
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted 0,0,1
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
+withdrawn 1250000000000000000comp: 2comp: 2
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==comp: 1comp: 1
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: SUYZUkDaKk9Mv9H1KGJyiw==comp: 2comp: 2
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
-withdrawn 1250000000000000000here1
-here0
-
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-1 emitted 0,0,1
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted 0,0,1
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF0xc3001e08fd1950693f12Cb9582e002D630e468Aeerr2: Error: Returned error: VM Exception while processing transaction: revert
-0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CFerr2: Error: Returned error: VM Exception while processing transaction: revert
-
+withdrawn 1250000000000000000comp: 1comp: 1
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==comp: 2comp: 2
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: SUYZUkDaKk9Mv9H1KGJyiw==comp: 1comp: 1
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
-withdrawn 1250000000000000000here0
-here1
-
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted 0,0,1
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-1 emitted 0,0,1
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
+withdrawn 1250000000000000000comp: 1comp: 1
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==comp: 2comp: 2
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
-withdrawn 1250000000000000000here0
-here1
-
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted 0,0,1
-1 emitted 0,0,1
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
+withdrawn 1250000000000000000comp: 1comp: 1
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
-withdrawn 1250000000000000000here0
-here1
-
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted 0,0,1
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-1 emitted 0,0,1
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CFerr2: Error: Returned error: VM Exception while processing transaction: revert
-0xc3001e08fd1950693f12Cb9582e002D630e468Aeerr2: Error: Returned error: VM Exception while processing transaction: revert
-
+withdrawn 1250000000000000000comp: 1comp: 1
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==comp: 2comp: 2
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
-withdrawn 1250000000000000000here1
-here0
-
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-1 emitted 0,0,1
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted 0,0,1
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
+withdrawn 1250000000000000000comp: 2comp: 2comp: 1comp: 1
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
-withdrawn 1250000000000000000here0
-here1
-
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted 0,0,1
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted 0,0,1
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CFerr2: Error: Returned error: VM Exception while processing transaction: revert
-0xc3001e08fd1950693f12Cb9582e002D630e468Aeerr2: Error: Returned error: VM Exception while processing transaction: revert
-
+withdrawn 1250000000000000000comp: 1comp: 1
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
-withdrawn 1250000000000000000here1
-here0
-
-connected
-connectedhere1
-here0
-
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
+withdrawn 1250000000000000000comp: 2comp: 2comp: 1comp: 1
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==comp: 2comp: 2
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
-withdrawn 1250000000000000000here0
-here1
-
-0 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-0 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-1 emitted fraqsuF8NtXIxXPZi1hDAw==,ZcVDZP9aDqm6C194d55ynw==,9k7s34PB+XRxKly4qIfm
-1 emitted e8WHpWPNs09GSSN0iI56dg==,YvfhagRbCs2npX0A3Dwy8w==,Uk6tpGZjGSVdn/Aupelr
-compu: 0x5bf328D2F7d5830C2232B7520aa7fCAFFfb2b8CF
-compu: 0xc3001e08fd1950693f12Cb9582e002D630e468Ae
+withdrawn 1250000000000000000comp: 1comp: 1
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+withdrawn 1250000000000000000
+withdrawn 1250000000000000000comp: 2comp: 2
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
+data: ZePm9KqKQqOMnJcf+i+H0w==
+data: SUYZUkDaKk9Mv9H1KGJyiw==
 withdrawn 1250000000000000000
 withdrawn 1250000000000000000

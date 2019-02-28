@@ -10,8 +10,10 @@ const mongoose = require('mongoose')
 const ipc = require('node-ipc')
 const contractInstance = require('../ethereum/mpc')
 const spdzDataConversion = require('../spdz_interface/spdzDataConversion')
+const { exec } = require('child_process')
 const web3 = require('web3')
 let computationID,
+  computationType,
   playerAddress,
   millionaireModel,
   newComputationEvent,
@@ -23,11 +25,9 @@ const connectToMongo = mongoUri => {
 
   const db = mongoose.connection
   db.on('error', function() {
-    fs.appendFile('debug.txt', '\nerror - ' + error)
     logger.info(error)
   })
   db.once('open', function() {
-    fs.appendFile('debug.txt', '\nconnected')
     logger.info('connected')
   })
 
@@ -35,9 +35,7 @@ const connectToMongo = mongoUri => {
   //SCHEMA
   const millionaireSchema = new mongoose.Schema({
     _id: String,
-    a: String,
-    isLast: String,
-    type: String
+    a: String
   })
 
   //MODEL -> constructor created from the schema
@@ -58,14 +56,13 @@ const handleNewSpdzMessage = async (spdzEngine, clientSocket) => {
           const convertedData = spdzDataConversion.binaryToIntArray(
             new Array(spdzData)
           )
-
           //the input after convertedData[i]==999 is the result
           //999 is the type
           //write into the blockchain the result
           for (var i = 0; i < convertedData.length; i++) {
             if (parseInt(convertedData[i]) === 999) {
               try {
-                fs.appendFile('debug.txt', '\ncompu: ' + playerAddress)
+                logger.warn('debug.txt', '\ncompu: ' + playerAddress)
                 await contractInstance.methods
                   .setComputationResult(
                     parseInt(computationID),
@@ -73,15 +70,12 @@ const handleNewSpdzMessage = async (spdzEngine, clientSocket) => {
                   )
                   .send({ from: playerAddress, gas: 1000000 })
               } catch (err) {
-                fs.appendFile(
-                  'debug.txt',
-                  playerAddress + 'err2: ' + err + '\n'
-                )
+                logger.warn('debug.txt', playerAddress + 'err2: ' + err + '\n')
               }
             }
           }
         } catch (err) {
-          fs.appendFile('debug.txt', '\nerr: ' + err)
+          logger.warn('debug.txt', '\nerr: ' + err)
         }
       } else {
         logger.warn(
@@ -221,28 +215,17 @@ const setupSpdzInteraction = (io, namespace, spdzEngine, playerId) => {
   ns.on('connection', socket => {
     logger.debug(`Socket ${socket.id} connected.`)
 
-    /* RUN A SPDZ COMPUTATION RETRIEVING DATA FROM DB */
-
-    //proxies here will fetch data from the db and send it over to spdz spdzEngine
-    const getHighestValue = () => {
-      //query -> returns an array with all results
-
+    const runComputation = () => {
       millionaireModel.find({}, (err, millionaires) => {
         for (var i = 0; i < millionaires.length; i++) {
-          var dataArray = new Array(
-            millionaires[i]._id,
-            millionaires[i].a,
-            millionaires[i].isLast
-          )
+          //dataArray[i] = millionaires[i].a
+          var dataArray = new Array(millionaires[i].a)
+
           //send to SPDZ engine this input
           if (spdzEngine.sendBigIntegers(socket.id, dataArray)) {
-            fs.appendFile(
-              'debug.txt',
-              '\n' + playerId + ' emitted ' + dataArray
-            )
             socket.emit('sendData_result', { status: 0 })
+            fs.appendFile('debug.txt', '\ndata: ' + dataArray)
           } else {
-            fs.appendFile('debug.txt', '\n' + 'ERR')
             socket.emit('sendData_result', {
               status: 1,
               err: 'Unable to send data (modp) to SPDZ engine.'
@@ -271,25 +254,20 @@ const setupSpdzInteraction = (io, namespace, spdzEngine, playerId) => {
     //ATTIVATO CON sendClearInputsPromise o sendSecretInputsPromise nel client
     //con sendSecretInputsPromise prima di inviare gli input viene attivato il protocollo di sharing
     //dello SPDZ - gli input sono inviati con dataType modp se già shared
-
     socket.on('sendData', async (dataType, dataArray) => {
       //this when they receive the ID in clear from client
       if (dataType === 'int32') {
         if (dataArray[0] === 999) {
           //this is the computation ID passed from client
           computationID = dataArray[1]
+          computationType = dataArray[2]
+
+          fs.appendFile('debug.txt', 'comp: ' + dataArray[2])
         } else {
-          fs.appendFile(
-            'debug.txt',
-            playerId + ' received ' + dataArray[0] + '\n'
-          )
           try {
             await contractInstance.methods
               .confirmDataProducerRequest(dataArray[0])
               .send({ from: playerAddress, gas: 200000 })
-
-            fs.appendFile('debug.txt', 'confirmed ' + playerId + '\n')
-
             socket.emit('sendData_result', { status: 0 })
           } catch (err) {
             fs.appendFile('debug.txt', 'err ' + err + '\n')
@@ -306,20 +284,15 @@ const setupSpdzInteraction = (io, namespace, spdzEngine, playerId) => {
         //dataArray['id', 'worth', 'isLast ']
         const millionaire = new millionaireModel({
           _id: dataArray[0],
-          a: dataArray[1],
-          isLast: dataArray[2],
-          type: dataType
+          a: dataArray[0]
         })
 
-        //millionaire.isNew = false //avoid throwing error for duplicates
-        //save the document
         millionaire.save(err => {
-          fs.appendFile('debug.txt', 'here' + dataArray + '\n')
           if (err) {
             fs.appendFile('debug.txt', 'err db ' + playerId + '\n')
           }
 
-          if (spdzEngine.sendBigIntegers(socket.id, dataArray)) {
+          if (spdzEngine.sendBigIntegers(socket.id, new Array(dataArray[0]))) {
             socket.emit('sendData_result', { status: 0 })
           } else {
             fs.appendFile('debug.txt', 'err big int' + playerId + '\n')
@@ -332,10 +305,20 @@ const setupSpdzInteraction = (io, namespace, spdzEngine, playerId) => {
       }
     })
 
+    socket.on('runComputation', () => {
+      runComputation()
+    })
+
     socket.on('getHighestValue', () => {
-      fs.appendFile('debug.txt', 'here' + playerId + '\n')
-      //run the millionaire in a process queue with syncrhonization
-      getHighestValue()
+      runComputation()
+    })
+
+    socket.on('getLowestValue', () => {
+      runComputation()
+    })
+
+    socket.on('getMeanValue', () => {
+      runComputation()
     })
 
     /**
