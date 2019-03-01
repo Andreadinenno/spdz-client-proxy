@@ -261,9 +261,8 @@ const setupSpdzInteraction = (io, namespace, spdzEngine, playerId) => {
           //this is the computation ID passed from client
           computationID = dataArray[1]
           computationType = dataArray[2]
-
-          fs.appendFile('debug.txt', 'comp: ' + dataArray[2])
         } else {
+          //this is a data producer request having the id passed
           try {
             await contractInstance.methods
               .confirmDataProducerRequest(dataArray[0])
