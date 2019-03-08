@@ -17,7 +17,8 @@ let computationID,
   playerAddress,
   millionaireModel,
   newComputationEvent,
-  endedComputationEvent
+  endedComputationEvent,
+  id = 0
 
 //connect to database
 const connectToMongo = mongoUri => {
@@ -34,7 +35,7 @@ const connectToMongo = mongoUri => {
   //write to db
   //SCHEMA
   const millionaireSchema = new mongoose.Schema({
-    _id: String,
+    _id: Number,
     a: String
   })
 
@@ -62,7 +63,7 @@ const handleNewSpdzMessage = async (spdzEngine, clientSocket) => {
           for (var i = 0; i < convertedData.length; i++) {
             if (parseInt(convertedData[i]) === 999) {
               try {
-                logger.warn('debug.txt', '\ncompu: ' + playerAddress)
+                logger.warn('debug.txt', '\ncompu: ' + convertedData[i + 1])
                 await contractInstance.methods
                   .setComputationResult(
                     parseInt(computationID),
@@ -216,23 +217,28 @@ const setupSpdzInteraction = (io, namespace, spdzEngine, playerId) => {
     logger.debug(`Socket ${socket.id} connected.`)
 
     const runComputation = () => {
-      millionaireModel.find({}, (err, millionaires) => {
-        for (var i = 0; i < millionaires.length; i++) {
-          //dataArray[i] = millionaires[i].a
-          var dataArray = new Array(millionaires[i].a)
+      millionaireModel.find(
+        {},
+        null,
+        { sort: { _id: 1 } },
+        (err, millionaires) => {
+          for (var i = 0; i < millionaires.length; i++) {
+            //dataArray[i] = millionaires[i].a
+            var dataArray = new Array(millionaires[i].a)
 
-          //send to SPDZ engine this input
-          if (spdzEngine.sendBigIntegers(socket.id, dataArray)) {
-            socket.emit('sendData_result', { status: 0 })
-            fs.appendFile('debug.txt', '\ndata: ' + dataArray)
-          } else {
-            socket.emit('sendData_result', {
-              status: 1,
-              err: 'Unable to send data (modp) to SPDZ engine.'
-            })
+            //send to SPDZ engine this input
+            if (spdzEngine.sendBigIntegers(socket.id, dataArray)) {
+              socket.emit('sendData_result', { status: 0 })
+              fs.appendFile('debug.txt', '\ndata: ' + dataArray)
+            } else {
+              socket.emit('sendData_result', {
+                status: 1,
+                err: 'Unable to send data (modp) to SPDZ engine.'
+              })
+            }
           }
         }
-      })
+      )
     }
 
     socket.on('isSpdzConnected', () => {
@@ -269,7 +275,7 @@ const setupSpdzInteraction = (io, namespace, spdzEngine, playerId) => {
               .send({ from: playerAddress, gas: 200000 })
             socket.emit('sendData_result', { status: 0 })
           } catch (err) {
-            fs.appendFile('debug.txt', 'err ' + err + '\n')
+            //fs.appendFile('debug.txt', 'err ' + err + '\n')
             socket.emit('sendData_result', {
               status: 1,
               err: 'Error confirming request to blockchain'
@@ -282,15 +288,20 @@ const setupSpdzInteraction = (io, namespace, spdzEngine, playerId) => {
         //DOCUMENT -> instance of a model
         //dataArray['id', 'worth', 'isLast ']
         const millionaire = new millionaireModel({
-          _id: dataArray[0],
+          _id: id,
           a: dataArray[0]
         })
 
         millionaire.save(err => {
           if (err) {
-            fs.appendFile('debug.txt', 'err db ' + playerId + '\n')
+            fs.appendFile(
+              'debug.txt',
+              'err db ' + id + '-' + dataArray[0] + '\n'
+            )
+          } else {
+            fs.appendFile('debug.txt', 'saved' + dataArray[0] + '\n')
+            id = id + 1
           }
-
           if (spdzEngine.sendBigIntegers(socket.id, new Array(dataArray[0]))) {
             socket.emit('sendData_result', { status: 0 })
           } else {
